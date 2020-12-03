@@ -1,0 +1,1 @@
+This project consists on the usage of the Ant colony optimization meta-heuristic algorithm to find an optimal solution to the Travelling Salesman Problem. The simulation process consists on a group of ants transversing the graph to find Hamiltonian cycles and returning to the nest. The shortest path found is saved and returned to the user.  
