@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE simulation SYSTEM "simulation.dtd">
+<simulation finalinst="50.0" antcolsize="20" plevel="0.3">
+  <graph nbnodes="20" nestnode="1">
+    <node nodeidx="1">
+      <weight targetnode="2">8</weight>
+      <weight targetnode="6">7</weight>
+      <weight targetnode="12">6</weight>
+      <weight targetnode="14">5</weight>
+      <weight targetnode="16">7</weight>
+      <weight targetnode="20">8</weight>
+    </node>
+    <node nodeidx="2">
+      <weight targetnode="3">2</weight>
+      <weight targetnode="9">3</weight>
+      <weight targetnode="15">5</weight>
+      <weight targetnode="19">7</weight>
+    </node>
+    <node nodeidx="3">
+      <weight targetnode="11">6</weight>
+      <weight targetnode="7">2</weight>
+      <weight targetnode="19">3</weight>
+      <weight targetnode="15">5</weight>
+      <weight targetnode="18">7</weight>
+    </node>
+    <node nodeidx="4">
+      <weight targetnode="5">8</weight>
+      <weight targetnode="12">6</weight>
+      <weight targetnode="17">2</weight>
+      <weight targetnode="9">4</weight>
+      <weight targetnode="15">8</weight>
+    </node>
+    <node nodeidx="5">
+      <weight targetnode="18">7</weight>
+      <weight targetnode="12">6</weight>
+      <weight targetnode="17">3</weight>
+      <weight targetnode="9">10</weight>
+      <weight targetnode="15">5</weight>
+    </node>
+    <node nodeidx="6">
+      <weight targetnode="5">7</weight>
+      <weight targetnode="12">6</weight>
+      <weight targetnode="18">2</weight>
+      <weight targetnode="9">3</weight>
+      <weight targetnode="11">5</weight>
+    </node>
+    <node nodeidx="7">
+      <weight targetnode="11">4</weight>
+      <weight targetnode="14">7</weight>
+      <weight targetnode="16">6</weight>
+      <weight targetnode="17">3</weight>
+      <weight targetnode="18">3</weight>
+      <weight targetnode="19">6</weight>
+    </node>
+    <node nodeidx="8">
+      <weight targetnode="5">7</weight>
+    </node>
+    <node nodeidx="9">
+      <weight targetnode="5">7</weight>
+    </node>
+    <node nodeidx="10">
+      <weight targetnode="5">7</weight>
+    </node>
+    <node nodeidx="11">
+      <weight targetnode="5">7</weight>
+    </node>
+    <node nodeidx="12">
+      <weight targetnode="5">7</weight>
+    </node>
+    <node nodeidx="13">
+      <weight targetnode="5">7</weight>
+    </node>
+    <node nodeidx="14">
+    </node>
+    <node nodeidx="15">
+    </node>
+    <node nodeidx="16">
+    </node>
+    <node nodeidx="17">
+      <weight targetnode="19">5</weight>
+      <weight targetnode="20">9</weight>
+    </node>
+    <node nodeidx="18">
+      <weight targetnode="19">5</weight>
+    </node>
+    <node nodeidx="19">
+    </node>
+    <node nodeidx="20">
+    </node>
+  </graph>
+  <events>
+    <move alpha="1.1" beta="1.2" delta="0.3"/>
+    <evaporation eta="2.0" rho="5.0"/>
+  </events>
+</simulation>
